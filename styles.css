@@ -1,0 +1,74 @@
+/* Basic styling for the leaderboard page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #555;
+  }
+  
+  #name-entry {
+    margin: 20px 0;
+  }
+  
+  #name-input {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  #submit-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  #leaderboard {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #leaderboard li {
+    font-size: 1.2em;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #leaderboard li:last-child {
+    border-bottom: none;
+  }
+  
